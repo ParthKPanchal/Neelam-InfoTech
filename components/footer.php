@@ -15,24 +15,42 @@
       </div>
 
       <!-- Get In Touch -->
-      <div class="col-lg-2 col-md-6 pt-5 align-items-center">
-          <div class="section-title section-title-sm">
-            <h3 class="text-light mb-0">Get In Touch</h3>
-          </div>
-          <div class="d-flex mb-2"><i class="bi bi-telephone text-primary me-2"></i><p class="mb-0">+91 9324753025</p></div>
-          <div class="d-flex mb-2"><i class="bi bi-telephone text-primary me-2"></i><p class="mb-0">+91 7977787937</p></div>
-          <div class="d-flex mb-2"><i class="bi bi-telephone text-primary me-2"></i><p class="mb-0">+91 9321300250</p></div>
-          <div class="d-flex mb-2"><i class="bi bi-envelope-open text-primary me-2"></i><p class="mb-0">info@ajayinfotech.in</p></div>
-          <div class="d-flex mb-2"><i class="bi bi-geo-alt text-primary me-2"></i><p class="mb-0">Mira Road</p></div>
-          <div class="d-flex mb-2"><i class="bi bi-geo-alt text-primary me-2"></i><p class="mb-0">Virar</p></div>
+      <div class="col-lg-2 col-md-6 pt-5 text-md-start text-center">
+        <div class="section-title section-title-sm">
+          <h3 class="text-light mb-0">Get In Touch</h3>
+        </div>
+        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+          <i class="bi bi-telephone text-primary me-2"></i>
+          <p class="mb-0">+91-9324753025</p>
+        </div>
+        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+          <i class="bi bi-telephone text-primary me-2"></i>
+          <p class="mb-0">+91-7977787937</p>
+        </div>
+        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+          <i class="bi bi-telephone text-primary me-2"></i>
+          <p class="mb-0">+91-9321300250</p>
+        </div>
+        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+          <i class="bi bi-envelope-open text-primary me-2"></i>
+          <p class="mb-0">info@ajayinfotech.in</p>
+        </div>
+        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+          <i class="bi bi-geo-alt text-primary me-2"></i>
+          <p class="mb-0">Mira Road</p>
+        </div>
+        <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
+          <i class="bi bi-geo-alt text-primary me-2"></i>
+          <p class="mb-0">Virar</p>
+        </div>
       </div>
 
       <!-- Quick Links -->
-      <div class="col-lg-2 col-md-4 pt-5">
-        <div class="section-title section-title-sm ">
+      <div class="col-lg-2 col-md-4 pt-5 text-md-start text-center">
+        <div class="section-title section-title-sm">
           <h3 class="text-light mb-0">Quick Links</h3>
         </div>
-        <div class="link-animated d-flex flex-column">
+        <div class="link-animated d-flex flex-column align-items-md-start align-items-center">
           <a class="text-light mb-2" href="index.php"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
           <a class="text-light mb-2" href="about.php"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
           <a class="text-light mb-2" href="blog.php"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
@@ -43,32 +61,31 @@
       </div>
 
       <!-- Popular Links -->
-      <div class="col-lg-2 col-md-4 pt-5">
-        <div class="section-title section-title-sm ">
-            <h3 class="text-light mb-0">Popular Links</h3>
+      <div class="col-lg-2 col-md-4 pt-5 text-md-start text-center">
+        <div class="section-title section-title-sm">
+          <h3 class="text-light mb-0">Popular Links</h3>
         </div>
-        <div class="link-animated d-flex flex-column">
-            <a class="text-light mb-2" href="tally.php"><i class="bi bi-arrow-right text-primary me-2"></i>Tally</a>
-            <a class="text-light mb-2" href="gstservice.php"><i class="bi bi-arrow-right text-primary me-2"></i>GST Services</a>
-            <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Tally Services</a>
-            <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web Development</a>
+        <div class="link-animated d-flex flex-column align-items-md-start align-items-center">
+          <a class="text-light mb-2" href="tally.php"><i class="bi bi-arrow-right text-primary me-2"></i>Tally</a>
+          <a class="text-light mb-2" href="gstservice.php"><i class="bi bi-arrow-right text-primary me-2"></i>GST Services</a>
+          <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Tally Services</a>
+          <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Web Development</a>
         </div>
-        </div>
-    
+      </div>
 
-        <!-- Policies -->
-        <div class="col-lg-2 col-md-4 pt-5">
-            <div class="section-title section-title-sm ">
-            <h3 class="text-light mb-0">Policies</h3>
-            </div>
-            <div class="link-animated d-flex flex-column">
-            <a class="text-light mb-2" href="term.php"><i class="bi bi-arrow-right text-primary me-2"></i>Terms & Conditions</a>
-            <a class="text-light mb-2" href="privacy.php"><i class="bi bi-arrow-right text-primary me-2"></i>Privacy Policy</a>
-            <a class="text-light mb-2" href="refund.php"><i class="bi bi-arrow-right text-primary me-2"></i>Refund & Cancellation</a>
-            <a class="text-light" href="maincontact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-            </div>
+      <!-- Policies -->
+      <div class="col-lg-2 col-md-4 pt-5 text-md-start text-center">
+        <div class="section-title section-title-sm">
+          <h3 class="text-light mb-0">Policies</h3>
         </div>
+        <div class="link-animated d-flex flex-column align-items-md-start align-items-center">
+          <a class="text-light mb-2" href="term.php"><i class="bi bi-arrow-right text-primary me-2"></i>Terms & Conditions</a>
+          <a class="text-light mb-2" href="privacy.php"><i class="bi bi-arrow-right text-primary me-2"></i>Privacy Policy</a>
+          <a class="text-light mb-2" href="refund.php"><i class="bi bi-arrow-right text-primary me-2"></i>Refund & Cancellation</a>
+          <a class="text-light" href="maincontact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
         </div>
+      </div>
+
     </div>
   <!-- Bottom Footer -->
   <div class="container-fluid text-white" style="background: #061429;">

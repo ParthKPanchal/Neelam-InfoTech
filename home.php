@@ -15,6 +15,15 @@
     ?>
     <!-- loader section end here-->
     <div id="main-content" style="display: none;" class="bg-info">
+        <div id="sticky-header">
+            <?php
+                include "components/topbar.php";
+            ?>
+            <?php
+                include "components/navbar.php";
+            ?>
+        </div>
+        
         <?php include 'components/main-carousel.php'; ?>
         Home page
         <?php
@@ -23,6 +32,6 @@
     </div>
     
     <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </body>
 </html>
