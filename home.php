@@ -14,7 +14,7 @@
         include "effect/loader.php";
     ?>
     <!-- loader section end here-->
-    <div id="main-content" style="display: none;" class="bg-info">
+    <div id="main-content" style="display: none;">
         <div id="sticky-header">
             <?php
                 include "components/topbar.php";
@@ -25,7 +25,9 @@
         </div>
         
         <?php include 'components/main-carousel.php'; ?>
-        Home page
+        <?php
+            include 'content/home-certificate.php';
+        ?>
         <?php
         include "components/footer.php";
         ?>

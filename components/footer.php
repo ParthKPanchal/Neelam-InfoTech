@@ -1,5 +1,5 @@
 <!-- footer start -->
-<div class="bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #061429;">
+<div class="bg-dark text-light wow fadeInUp" data-wow-delay="0.1s" style="background: #061429;">
   <div class="container-fluid">
     <div class="row">
       <!-- About Section -->
@@ -21,27 +21,27 @@
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-telephone text-primary me-2"></i>
-          <p class="mb-0">+91-9324753025</p>
+          <p class="mb-0 detail">+91-9324753025</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-telephone text-primary me-2"></i>
-          <p class="mb-0">+91-7977787937</p>
+          <p class="mb-0 detail">+91-7977787937</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-telephone text-primary me-2"></i>
-          <p class="mb-0">+91-9321300250</p>
+          <p class="mb-0 detail">+91-9321300250</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-envelope-open text-primary me-2"></i>
-          <p class="mb-0">info@ajayinfotech.in</p>
+          <p class="mb-0 detail">info@ajayinfotech.in</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-geo-alt text-primary me-2"></i>
-          <p class="mb-0">Mira Road</p>
+          <p class="mb-0 detail">Mira Road</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-geo-alt text-primary me-2"></i>
-          <p class="mb-0">Virar</p>
+          <p class="mb-0 detail">Virar</p>
         </div>
       </div>
 
