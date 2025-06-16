@@ -17,6 +17,109 @@
   
     <!-- Owl Carousel CSS section end here -->
     <title>Neelam Infotech | Gallery</title>
+    <style>
+        .accordion-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between buttons */
+    margin-top: 50px;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding and border in total width/height */
+    overflow: auto; /* Add scroll if necessary */
+  }
+  .accordion-button {
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 200px;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px !important; /* Ensure border radius is applied */
+    position: relative; /* Ensure any pseudo-elements are positioned relative to button */
+  }
+
+  .accordion-button::after {
+    content: ""; /* Remove any existing content */
+    display: none; /* Hide any arrows */
+  }
+
+  .accordion-button.active {
+    background-color: #5585b5 !important;
+    color: white !important; 
+    border-color: #0056b3 !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 18px; /* Ensure active button also has the same border radius */
+  }
+
+  .image-container {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+    gap: 10px;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
+  .accordion-background {
+    background-color:  rgb(253, 253, 253);
+    width: 100%; /* Ensure it takes full width */
+    padding: 20px; /* Add padding to visualize background */
+  }
+  /* all header image section start here */
+.aiheaderimage {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ensure enough height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    z-index: 0; /* Keep image behind the text */
+}
+
+.title {
+    position: relative;
+    font-size: 3rem;
+    color: white;
+    z-index: 1; /* Ensure the text stays on top of the image */
+}
+
+.aiheaderimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for better text visibility */
+    z-index: 1;
+}
+/* all header image section end here */
+    </style>
 </head>
 <body>
     <!-- loader section start here-->
@@ -33,14 +136,14 @@
                 include "components/navbar.php";
             ?>
         </div>
-        <!-- background name display section start here -->
+        <!-- background name display start -->
         <div class="aiheaderimage">
             <img src="./image/Tally Pime backgrornd image.png"  class="header-image">
             <h1 class="title">Gallery</h1>
         </div>
-        <!-- background name display section end here -->
+        <!-- background name display end -->
         
-        <!-- Accordion section start here -->
+        <!-- Accordion start -->
         <div class="accordion-background">
             <div class="container">
                 <div class="accordion-container">
@@ -92,7 +195,7 @@
                 </div>
             </div>
         </div>
-        <!-- Accordion section end here -->
+        <!-- Accordion end -->
         <?php
         include "components/footer.php";
         ?>

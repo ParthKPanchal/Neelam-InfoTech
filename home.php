@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
   
     <!-- Owl Carousel CSS section end here -->
-    <title>Neelam Infotech | Contact us</title>
+    <title>Neelam Infotech | Home</title>
 </head>
 <body>
     <!-- loader section start here-->
@@ -36,12 +36,6 @@
         
         <?php 
             include 'components/main-carousel.php'; 
-        ?>
-        <?php 
-            include 'components/main-carousel.php'; 
-        ?>
-        <?php
-            include 'content/home-certificate.php';
         ?>
         <?php
             include 'content/home-certificate.php';

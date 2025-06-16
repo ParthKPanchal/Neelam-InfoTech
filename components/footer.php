@@ -83,8 +83,8 @@
           <a class="text-light" href="maincontact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
         </div>
       </div>
+
     </div>
-    <hr class="text-light">
   <!-- Bottom Footer -->
   <div class="container-fluid text-white" style="background: #061429;">
     <div class="container text-center">

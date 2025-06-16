@@ -1,4 +1,5 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <section class="product-services bg-white py-5">
   <div class="container text-center">
     <div class="section-title section-title-sm text-center">
@@ -6,7 +7,7 @@
     </div>
 
     <!-- Tab Navigation -->
-    <ul class="nav nav-tabs justify-content-evenly mb-4" id="servicesTab" role="tablist">
+    <ul class="nav nav-tabs d-flex justify-content-evenly mb-4" id="servicesTab" role="tablist">
       <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#products" type="button">Products</button></li>
       <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#services" type="button">Services</button></li>
       <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#apps" type="button">Apps</button></li>
