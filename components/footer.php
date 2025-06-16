@@ -1,16 +1,14 @@
 <!-- footer start -->
-<div class="bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s" style="background: #061429;">
+<div class="bg-dark text-light wow fadeInUp" data-wow-delay="0.1s" style="background: #061429;">
   <div class="container-fluid">
     <div class="row">
       <!-- About Section -->
       <div class="col-lg-4 col-md-6 footer-about d-flex flex-column align-items-center justify-content-start text-center p-4">
-        <a href="index.php" class="navbar-brand">
-          <h1 class="m-0 text-white">
-            <i class="fa me-2">
-              <img style="margin-top: 5%;" src="./image/logo-white.png" alt="Ajay InfoTech Logo" width="200vw">
-            </i><br>Ajay Infotech
-          </h1>
+        <a href="index.php" class="navbar-brand mb-3">
+          <!-- Only Logo, remove text inside h1 -->
+          <img src="./image/logo-white.png" alt="Ajay InfoTech Logo" class="footer-logo">
         </a>
+        <h1 class="m-0 text-white">Ajay Infotech</h1>
         <p class="mt-3 mb-4">Simple Solutions For Complex Problems <br> Want to Become Our Family Member? Join Us.</p>
       </div>
 
@@ -21,27 +19,27 @@
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-telephone text-primary me-2"></i>
-          <p class="mb-0">+91-9324753025</p>
+          <p class="mb-0 detail">+91-9324753025</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-telephone text-primary me-2"></i>
-          <p class="mb-0">+91-7977787937</p>
+          <p class="mb-0 detail">+91-7977787937</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-telephone text-primary me-2"></i>
-          <p class="mb-0">+91-9321300250</p>
+          <p class="mb-0 detail">+91-9321300250</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-envelope-open text-primary me-2"></i>
-          <p class="mb-0">info@ajayinfotech.in</p>
+          <p class="mb-0 detail">info@ajayinfotech.in</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-geo-alt text-primary me-2"></i>
-          <p class="mb-0">Mira Road</p>
+          <p class="mb-0 detail">Mira Road</p>
         </div>
         <div class="d-flex justify-content-md-start justify-content-center align-items-center mb-2">
           <i class="bi bi-geo-alt text-primary me-2"></i>
-          <p class="mb-0">Virar</p>
+          <p class="mb-0 detail">Virar</p>
         </div>
       </div>
 
@@ -85,8 +83,8 @@
           <a class="text-light" href="maincontact.php"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
         </div>
       </div>
-
     </div>
+    <hr class="text-light">
   <!-- Bottom Footer -->
   <div class="container-fluid text-white" style="background: #061429;">
     <div class="container text-center">

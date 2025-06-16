@@ -1,0 +1,2 @@
+wow fadeInUp
+wow zoomIn

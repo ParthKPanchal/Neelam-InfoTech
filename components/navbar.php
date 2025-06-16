@@ -19,7 +19,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.php" class="nav-item nav-link">Home</a>
+                    <a href="home.php" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product & Services</a>
                         <div
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <a href="blog.php" class="nav-item nav-link">Blog</a>
-                <a href="maincontact.php" class="nav-item nav-link">Contact</a>
+                <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div></div>
     </nav>
 </div>

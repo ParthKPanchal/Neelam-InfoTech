@@ -7,7 +7,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="2000">
-      <img src="./image/main-carousel1.png" class="d-block w-100" alt="First Slide">
+      <img src="./image/main-carousel1.png" class="d-block w-100 carousel-img" alt="First Slide">
       <div class="carousel-caption d-none d-md-block">
         <!-- <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p> -->
