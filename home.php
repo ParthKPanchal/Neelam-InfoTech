@@ -37,6 +37,12 @@
         <?php 
             include 'components/main-carousel.php'; 
         ?>
+        <?php 
+            include 'components/main-carousel.php'; 
+        ?>
+        <?php
+            include 'content/home-certificate.php';
+        ?>
         <?php
             include 'content/home-certificate.php';
         ?>
