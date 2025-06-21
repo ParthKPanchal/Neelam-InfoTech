@@ -1,16 +1,14 @@
-<!-- footer start -->
+<!-- footer section start here -->
 <div class="bg-dark text-light wow fadeInUp" data-wow-delay="0.1s" style="background: #061429;">
   <div class="container-fluid">
     <div class="row">
       <!-- About Section -->
       <div class="col-lg-4 col-md-6 footer-about d-flex flex-column align-items-center justify-content-start text-center p-4">
-        <a href="index.php" class="navbar-brand">
-          <h1 class="m-0 text-white">
-            <i class="fa me-2">
-              <img style="margin-top: 5%;" src="./image/logo-white.png" alt="Ajay InfoTech Logo" width="200vw">
-            </i><br>Ajay Infotech
-          </h1>
+        <a href="index.php" class="navbar-brand mb-3">
+          <!-- Only Logo, remove text inside h1 -->
+          <img src="./image/logo-white.png" alt="Ajay InfoTech Logo" class="footer-logo">
         </a>
+        <h1 class="m-0 text-white">Ajay Infotech</h1>
         <p class="mt-3 mb-4">Simple Solutions For Complex Problems <br> Want to Become Our Family Member? Join Us.</p>
       </div>
 
