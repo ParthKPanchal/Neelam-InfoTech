@@ -45,6 +45,19 @@
     <!-- First Slide -->
     <div class="carousel-item active">
       <img src="./image/main-carousel1.png" class="d-block w-100" alt="First Slide">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="./image/main-carousel1.png" class="d-block w-100 carousel-img" alt="First Slide">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p> -->
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./image/main-carousel2.png" class="d-block w-100" alt="Second Slide">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p> -->
+      </div>
     </div>
     <!-- Second Slide -->
     <div class="carousel-item">

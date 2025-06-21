@@ -1,4 +1,28 @@
+
 <!-- awards section start here -->
+
+<style>
+/* owl carousel section start here */
+.owl-carousel .item {
+  display: flex;
+  justify-content: center;   /* horizontally centre the img  */
+  align-items:   center;     /* vertically   centre the img  */
+  padding: 10px;             /* optional breathing-space     */
+}
+
+.award_img {
+  height:200px;
+  object-fit:cover;
+  border-radius:10px;
+  object-fit: cover;
+  border-left: 3px solid #275EFE;
+  border-bottom: 3px solid #275EFE;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px #275EFE;
+}
+</style>
+<!-- Our Value section start here -->
+
  <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.05s">
     <div class="container text-center py-5">
         <div class="container text-center">
@@ -37,4 +61,40 @@
         </div>
     </div>
 </div>
+
 <!-- awards section end here -->
+
+<!-- Our Value section end here -->
+
+<script>
+    // award carousel section start here
+$(document).ready(function () {
+  $(".award-carousel").owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false,
+    dots: true,
+    autoplay: true,
+    autoplayTimeout: 1000,     // Time between slides
+    autoplaySpeed: 1000,       // 🟢 Duration of slide animation (in ms)
+    smartSpeed: 1000,          // 🟢 Duration for manual navigation/drag
+    autoplayHoverPause: true,
+    responsive: {
+            0: {
+            items: 1
+            },
+            576: {
+            items: 2
+            },
+            768: {
+            items: 3
+            },
+            992: {
+            items: 4
+            }
+        }
+    });
+});
+// award carousel section end here
+</script>
+

@@ -2,441 +2,366 @@
 h1,
 h2,
 .fw-bold {
-  font-weight: 800 !important;
-  color: #275efe;
+    font-weight: 800 !important;
+    color: #275EFE;
 }
 
 h3,
 h4,
 .fw-semi-bold {
-  font-weight: 700 !important;
-  color: #275efe;
+    font-weight: 700 !important;
+    color: #275EFE;
 }
 
 h5,
 h6,
 .fw-medium {
-  font-weight: 600 !important;
-  color: #275efe;
+    font-weight: 600 !important;
+    color: #275EFE;
 }
 
 /* typerwriter loading section start here */
 .loading-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: white; /* or any background color */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: white; /* or any background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
 }
 
 .typewriter {
-  --blue: #5c86ff;
-  --blue-dark: #275efe;
-  --key: #fff;
-  --paper: #eef0fd;
-  --text: #d3d4ec;
-  --tool: #fbc56c;
-  --duration: 3s;
-  position: relative;
-  -webkit-animation: bounce05 var(--duration) linear infinite;
-  animation: bounce05 var(--duration) linear infinite;
+    --blue: #5C86FF;
+    --blue-dark: #275EFE;
+    --key: #fff;
+    --paper: #EEF0FD;
+    --text: #D3D4EC;
+    --tool: #FBC56C;
+    --duration: 3s;
+    position: relative;
+    -webkit-animation: bounce05 var(--duration) linear infinite;
+    animation: bounce05 var(--duration) linear infinite;
 }
 
 .typewriter .slide {
-  width: 92px;
-  height: 20px;
-  border-radius: 3px;
-  margin-left: 14px;
-  transform: translateX(14px);
-  background: linear-gradient(var(--blue), var(--blue-dark));
-  -webkit-animation: slide05 var(--duration) ease infinite;
-  animation: slide05 var(--duration) ease infinite;
+    width: 92px;
+    height: 20px;
+    border-radius: 3px;
+    margin-left: 14px;
+    transform: translateX(14px);
+    background: linear-gradient(var(--blue), var(--blue-dark));
+    -webkit-animation: slide05 var(--duration) ease infinite;
+    animation: slide05 var(--duration) ease infinite;
 }
 
-.typewriter .slide:before,
-.typewriter .slide:after,
+.typewriter .slide:before, .typewriter .slide:after,
 .typewriter .slide i:before {
-  content: "";
-  position: absolute;
-  background: var(--tool);
+    content: "";
+    position: absolute;
+    background: var(--tool);
 }
 
 .typewriter .slide:before {
-  width: 2px;
-  height: 8px;
-  top: 6px;
-  left: 100%;
+    width: 2px;
+    height: 8px;
+    top: 6px;
+    left: 100%;
 }
 
 .typewriter .slide:after {
-  left: 94px;
-  top: 3px;
-  height: 14px;
-  width: 6px;
-  border-radius: 3px;
+    left: 94px;
+    top: 3px;
+    height: 14px;
+    width: 6px;
+    border-radius: 3px;
 }
 
 .typewriter .slide i {
-  display: block;
-  position: absolute;
-  right: 100%;
-  width: 6px;
-  height: 4px;
-  top: 4px;
-  background: var(--tool);
+    display: block;
+    position: absolute;
+    right: 100%;
+    width: 6px;
+    height: 4px;
+    top: 4px;
+    background: var(--tool);    
 }
 
 .typewriter .slide i:before {
-  right: 100%;
-  top: -2px;
-  width: 4px;
-  border-radius: 2px;
-  height: 14px;
+    right: 100%;
+    top: -2px;
+    width: 4px;
+    border-radius: 2px;
+    height: 14px;
 }
 
 .typewriter .paper {
-  position: absolute;
-  left: 24px;
-  top: -26px;
-  width: 40px;
-  height: 46px;
-  border-radius: 5px;
-  background: var(--paper);
-  transform: translateY(46px);
-  -webkit-animation: paper05 var(--duration) linear infinite;
-  animation: paper05 var(--duration) linear infinite;
+    position: absolute;
+    left: 24px;
+    top: -26px;
+    width: 40px;
+    height: 46px;
+    border-radius: 5px;
+    background: var(--paper);
+    transform: translateY(46px);
+    -webkit-animation: paper05 var(--duration) linear infinite;
+    animation: paper05 var(--duration) linear infinite;    
 }
 
 .typewriter .paper:before {
-  content: "";
-  position: absolute;
-  left: 6px;
-  right: 6px;
-  top: 7px;
-  border-radius: 2px;
-  height: 4px;
-  transform: scaleY(0.8);
-  background: var(--text);
-  box-shadow: 0 12px 0 var(--text), 0 24px 0 var(--text), 0 36px 0 var(--text);
+    content: "";
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    top: 7px;
+    border-radius: 2px;
+    height: 4px;
+    transform: scaleY(0.8);
+    background: var(--text);
+    box-shadow: 0 12px 0 var(--text), 0 24px 0 var(--text), 0 36px 0 var(--text);
 }
 
 .typewriter .keyboard {
-  width: 120px;
-  height: 56px;
-  margin-top: -10px;
-  z-index: 1;
-  position: relative;
+    width: 120px;
+    height: 56px;
+    margin-top: -10px;
+    z-index: 1;
+    position: relative;
 }
 
-.typewriter .keyboard:before,
-.typewriter .keyboard:after {
-  content: "";
-  position: absolute;
+.typewriter .keyboard:before, .typewriter .keyboard:after {
+    content: "";
+    position: absolute;
 }
 
 .typewriter .keyboard:before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 7px;
-  background: linear-gradient(135deg, var(--blue), var(--blue-dark));
-  transform: perspective(10px) rotateX(2deg);
-  transform-origin: 50% 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 7px;
+    background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+    transform: perspective(10px) rotateX(2deg);
+    transform-origin: 50% 100%;
 }
 
 .typewriter .keyboard:after {
-  left: 2px;
-  top: 25px;
-  width: 11px;
-  height: 4px;
-  border-radius: 2px;
-  box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key),
-    60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-    22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key),
-    60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
-  -webkit-animation: keyboard05 var(--duration) linear infinite;
-  animation: keyboard05 var(--duration) linear infinite;
+    left: 2px;
+    top: 25px;
+    width: 11px;
+    height: 4px;
+    border-radius: 2px;
+    box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
+    -webkit-animation: keyboard05 var(--duration) linear infinite;
+    animation: keyboard05 var(--duration) linear infinite;
 }
 
 @keyframes bounce05 {
-  85%,
-  92%,
-  100% {
-    transform: translateY(0);
-  }
-  89% {
-    transform: translateY(-4px);
-  }
-  95% {
-    transform: translateY(2px);
-  }
+    85%, 92%, 100% {
+        transform: translateY(0);
+    }
+    89% {
+        transform: translateY(-4px);
+    }
+    95% {
+        transform: translateY(2px);
+    }    
 }
-
+       
 @keyframes slide05 {
-  5% {
-    transform: translateX(14px);
-  }
-  15%,
-  30% {
-    transform: translateX(6px);
-  }
-  40%,
-  55% {
-    transform: translateX(0);
-  }
-  65%,
-  70% {
-    transform: translateX(-4px);
-  }
-  80%,
-  89% {
-    transform: translateX(-12px);
-  }
-  100% {
-    transform: translateX(14px);
-  }
+    5% {
+        transform: translateX(14px);
+    }
+    15%, 30% {
+        transform: translateX(6px);
+    }
+    40%, 55% {
+        transform: translateX(0);
+    }
+    65%, 70% {
+        transform: translateX(-4px);
+    }
+    80%, 89% {
+        transform: translateX(-12px);
+    }
+    100% {
+        transform: translateX(14px);
+    }
 }
 @keyframes paper05 {
-  5% {
-    transform: translateY(46px);
-  }
-  20%,
-  30% {
-    transform: translateY(34px);
-  }
-  40%,
-  55% {
-    transform: translateY(22px);
-  }
-  65%,
-  70% {
-    transform: translateY(10px);
-  }
-  80%,
-  85% {
-    transform: translateY(0);
-  }
-  92%,
-  100% {
-    transform: translateY(46px);
-  }
+    5% {
+        transform: translateY(46px);
+    }
+    20%, 30% {
+        transform: translateY(34px);
+    }
+    40%, 55% {
+        transform: translateY(22px);
+    }
+    65%, 70% {
+        transform: translateY(10px);
+    }
+    80%, 85% {
+        transform: translateY(0);
+    }
+    92%, 100% {
+        transform: translateY(46px);
+    }
 }
 @keyframes keyboard05 {
-  5%,
-  12%,
-  21%,
-  30%,
-  39%,
-  48%,
-  57%,
-  66%,
-  75%,
-  84% {
-    box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key),
-      60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-      22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key),
-      60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
-  }
-  9% {
-    box-shadow: 15px 2px 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key),
-      60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-      22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key),
-      60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
-  }
-  18% {
-    box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key),
-      60px 2px 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-      22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key),
-      60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
-  }
-  27% {
-    box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key),
-      60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-      22px 12px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key),
-      60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
-  }
-  36% {
-    box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key),
-      60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-      22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 12px 0 var(--key),
-      60px 12px 0 var(--key), 68px 12px 0 var(--key), 83px 10px 0 var(--key);
-  }
-  45% {
-    box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key),
-      60px 0 0 var(--key), 75px 0 0 var(--key), 90px 2px 0 var(--key),
-      22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key),
-      60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
-  }
-  54% {
-    box-shadow: 15px 0 0 var(--key), 30px 2px 0 var(--key), 45px 0 0 var(--key),
-      60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-      22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key),
-      60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
-  }
-  63% {
-    box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key),
-      60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-      22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key),
-      60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 12px 0 var(--key);
-  }
-  72% {
-    box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 2px 0 var(--key),
-      60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-      22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key),
-      60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
-  }
-  81% {
-    box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key),
-      60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key),
-      22px 10px 0 var(--key), 37px 12px 0 var(--key), 52px 10px 0 var(--key),
-      60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
-  }
+    5%, 12%, 21%, 30%, 39%, 48%, 57%, 66%, 75%, 84% {
+        box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
+    }
+    9% {
+        box-shadow: 15px 2px 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
+    }
+    18% {
+        box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key), 60px 2px 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
+    }
+    27% {
+        box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 12px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
+    }
+    36% {
+        box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 12px 0 var(--key), 60px 12px 0 var(--key), 68px 12px 0 var(--key), 83px 10px 0 var(--key);
+    }
+    45% {
+        box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 2px 0 var(--key), 22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
+    }
+    54% {
+        box-shadow: 15px 0 0 var(--key), 30px 2px 0 var(--key), 45px 0 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
+    }
+    63% {
+        box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 12px 0 var(--key);
+    }
+    72% {
+        box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 2px 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 10px 0 var(--key), 37px 10px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
+    }
+    81% {
+        box-shadow: 15px 0 0 var(--key), 30px 0 0 var(--key), 45px 0 0 var(--key), 60px 0 0 var(--key), 75px 0 0 var(--key), 90px 0 0 var(--key), 22px 10px 0 var(--key), 37px 12px 0 var(--key), 52px 10px 0 var(--key), 60px 10px 0 var(--key), 68px 10px 0 var(--key), 83px 10px 0 var(--key);
+    }   
 }
 /* typerwriter loading section end here */
 
 /* underline effect start here */
 /*** Section Title Styling ***/
 .section-title {
-  position: relative;
-  padding-bottom: 10px;
-  display: inline-block;
-}
+    position: relative;
+    padding-bottom: 10px;
+    display: inline-block;    
+}        
 
 /*** Base line ***/
 .section-title::before {
-  content: "";
-  position: absolute;
-  width: 150px;
-  height: 5px;
-  left: 0;
-  bottom: 0;
-  background: #275efe;
-  border-radius: 2px;
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: #275EFE;
+    border-radius: 2px;
 }
 
 /*** Center alignment for line ***/
 .section-title.text-center::before {
-  left: 50%;
-  transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 /*** Small variation ***/
 
 .section-title.section-title-sm::before {
-  width: 90px;
-  height: 3px;
+    width: 90px;
+    height: 3px;
 }
 /*** Moving highlight dot ***/
 .section-title::after {
-  content: "";
-  position: absolute;
-  width: 6px;
-  height: 5px;
-  bottom: 0;
-  background: #ffffff;
-  animation: section-title-run 5s infinite linear;
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 5px;
+    bottom: 0;
+    background: #ffffff;
+    animation: section-title-run 5s infinite linear;
 }
 /*** Smaller dot size for small titles ***/
 .section-title.section-title-sm::after {
-  width: 4px;
-  height: 3px;
-  animation: section-title-run-sm 5s infinite linear;
+    width: 4px;
+    height: 3px;
+    animation: section-title-run-sm 5s infinite linear;
 }
 /*** Centered version animation ***/
 .section-title.text-center::after {
-  animation: section-title-run-center 5s infinite linear;
+    animation: section-title-run-center 5s infinite linear;
 }
 /*** Keyframes for left-aligned titles ***/
 @keyframes section-title-run {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: 144px;
-  }
-  100% {
-    left: 0;
-  }
+    0% { left: 0; }
+    50% { left: 144px; }
+    100% { left: 0; }
 }
 /*** Keyframes for centered titles ***/
 @keyframes section-title-run-center {
-  0% {
-    left: 50%;
-    transform: translateX(-75px);
-  }
-  50% {
-    left: 50%;
-    transform: translateX(45px);
-  }
-  100% {
-    left: 50%;
-    transform: translateX(-75px);
-  }
+    0% { left: 50%; transform: translateX(-75px); }
+    50% { left: 50%; transform: translateX(45px); }
+    100% { left: 50%; transform: translateX(-75px); }
 }
 /*** Keyframes for small left-aligned titles ***/
 @keyframes section-title-run-sm {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: 85px;
-  }
-  100% {
-    left: 0;
-  }
+    0% { left: 0; }
+    50% { left: 85px; }
+    100% { left: 0; }
 }
 /* underline effect end here */
 
 /* Wow effect section start here */
 .wow {
-  visibility: hidden;
-}
+            visibility: hidden;
+        }
 
-.animate {
-  visibility: visible;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
+        .animate {
+            visibility: visible;
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
 
-.wow.fadeInUp {
-  animation-name: fadeInUp;
-}
+        .wow.fadeInUp {
+            animation-name: fadeInUp;
+        }
 
-.wow.zoomIn {
-  animation-name: zoomIn;
-}
+        .wow.zoomIn {
+            animation-name: zoomIn;
+        }
 
-@keyframes fadeInUp {
-  from {
-    transform: translate3d(0, 40px, 0);
-    opacity: 0;
-  }
-  to {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-}
+        @keyframes fadeInUp {
+            from {
+                transform: translate3d(0, 40px, 0);
+                opacity: 0;
+            }
+            to {
+                transform: translate3d(0, 0, 0);
+                opacity: 1;
+            }
+        }
 
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  to {
-    opacity: 1;
-    transform: scale3d(1, 1, 1);
-  }
-}
+        @keyframes zoomIn {
+            from {
+                opacity: 0;
+                transform: scale3d(0.3, 0.3, 0.3);
+            }
+            to {
+                opacity: 1;
+                transform: scale3d(1, 1, 1);
+            }
+        }
 /* Wow effect section end here */
 
 /* owl carousel section start here */
 .owl-carousel .item {
   display: flex;
+
   justify-content: center; /* horizontally centre the img  */
   align-items: center; /* vertically   centre the img  */
   padding: 10px; /* optional breathing-space     */
@@ -456,14 +381,34 @@ h6,
 
 /* owl carousel section end here */
 
-.detail:hover {
-  text-decoration: underline !important;
+  justify-content: center;   /* horizontally centre the img  */
+  align-items:   center;     /* vertically   centre the img  */
+  padding: 10px;             /* optional breathing-space     */
 }
+
+
+.vimg {
+  height: 120px;             /* ← choose your universal height */
+  width:  auto;
+  object-fit: contain;       /* keeps aspect-ratio, shows whole logo */
+}
+
+.award_img {
+  height: 300px;             /* ← choose your universal height */
+  width:  auto;
+  object-fit: contain;       /* keeps aspect-ratio, shows whole logo */
+}
+
+/* owl carousel section end here */
+
+.detail:hover{
+    text-decoration: underline !important;;
+} 
 a {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
 a:hover {
-  text-decoration: underline !important;
+    text-decoration: underline !important;
 }
 
 /* Top bar and Navbar get fixed on the top */
@@ -481,6 +426,7 @@ a:hover {
 }
 /* top bar section end here */
 
+
 /* top bar section start here */
 .top-bar-content {
   font-size: 1rem;
@@ -489,109 +435,111 @@ a:hover {
 
 /* navbar section start here */
 .container-fluid.p-0 {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  position: sticky;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    position: sticky;
 }
 
 /* Navbar base styles */
 nav.navbar {
-  background-color: #003b64; /* navy blue */
-  padding: 1rem 3rem;
-  position: sticky;
+    background-color: #003b64; /* navy blue */
+    padding: 1rem 3rem;
+    position: sticky;
+    
 }
 
 /* Brand styling */
 .navbar-brand h1 {
-  margin-left: 30px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  font-weight: bold;
-  font-size: 1.75rem;
-  display: flex;
-  align-items: center;
-}
+    margin-left: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    font-size: 1.75rem;    
+    display: flex;
+    align-items: center;
+}   
 
 .navbar-brand h1 i img {
-  height: 50px;
-  width: 50px;
-  margin: 5%;
-  object-fit: contain;
-}
+    height: 50px;
+    width: 50px;
+    margin: 5%;
+    object-fit: contain;    
+} 
 
 /* Navbar toggler button - no border */
-.navbar-toggler.border-light {
-  border: none !important;
-  box-shadow: none !important;
-  outline: none !important;
+.navbar-toggler.border-light {    
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
 }
 
-/* Navbar toggler icon color */
-.navbar-toggler .bi {
-  color: #f8f9fa; /* text-light */
-  font-size: 1.25rem;
+/* Navbar toggler icon color */   
+.navbar-toggler .bi {    
+    color: #f8f9fa; /* text-light */
+    font-size: 1.25rem;    
 }
-/* Navbar nav links container */
-.navbar-nav.ms-auto {
-  padding-top: 0;
-  padding-bottom: 0;
-}
+/* Navbar nav links container */    
+.navbar-nav.ms-auto {    
+    padding-top: 0;
+    padding-bottom: 0;
+}   
 
-/* Nav links */
-.navbar-nav .nav-link {
-  color: #e4e6e7;
-  font-weight: 500;
-  margin-left: 1rem;
-  transition: color 0.3s ease;
+/* Nav links */    
+.navbar-nav .nav-link {    
+    color: #e4e6e7;
+    font-weight: 500;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: white; /* Bootstrap warning yellow for highlight */
-  text-decoration: underline;
+    color: white; /* Bootstrap warning yellow for highlight */
+    text-decoration: underline;
 }
 
 /* Dropdown menu base */
 .dropdown-menu {
-  background-color: white;
-  border: none;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
-  overflow: hidden;
+    background-color: white;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    overflow: hidden;
 }
 
 /* Dropdown titles */
 .dropdown-title {
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: #06a3da; /* golden highlight */
-  margin-bottom: 0.75rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #06a3da; /* golden highlight */
+    margin-bottom: 0.75rem;
 }
 
 /* Dropdown items */
 .dropdown-item {
-  color: #003b64;
-  font-weight: 400;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    color: #003b64;
+    font-weight: 400;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dropdown-item:hover {
-  color: #06a3da;
-  text-decoration: underline;
+    color: #06a3da;
+    text-decoration: underline;
 }
-/* Dropdown columns inside large dropdown */
+/* Dropdown columns inside large dropdown */    
 .dropdown-menu .row.gx-2.px-2 > div.col-4 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;   
 }
 /* Adjust dropdown menu width */
-.dropdown-menu[style] {
-  width: 500px !important;
+.dropdown-menu[style] {   
+    width: 500px !important;
 }
 /* navbar section end here */
 
 /* main-carousel section start here */
 .carousel-inner,
+
 .carousel-item {
   height: 70vh;
 }
@@ -639,6 +587,60 @@ nav.navbar {
 
 .our-value-item:hover img {
   transform: scale(1.1);
+
+.carousel-item,
+.carousel-img{
+    height: 70vh;
+}
+
+.carousel-img{
+    object-fit:cover;
+}
+
+.carousel-inner img {
+    display: flex;
+    justify-content: center;   /* horizontally centre the img  */
+    align-items:   center;     /* vertically   centre the img  */
+    padding: 10px; 
+}
+/* main-carousel section end here */
+
+/* Our Value section start here */  
+.our-values-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.our-value-item {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.our-value-item img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.our-value-item p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #275EFE;
+}
+
+.our-value-item:hover {
+    transform: translateY(-10px);
+}
+
+.our-value-item:hover img {
+    transform: scale(1.1);
+
 }
 /* Our Value section end here */
 
@@ -658,6 +660,7 @@ nav.navbar {
 }
 
 /* Optional: set a minimum height for consistent visual layout */
+
 .testimonial-carousel .owl-dots {
   margin-top: 15px;
   display: flex;
@@ -707,11 +710,59 @@ nav.navbar {
   align-items: center; /* vertical-centre text */
   text-align: left;
   min-height: 120px; /* tweak if text is larger */
+
+.testimonial-carousel .owl-dots{
+  margin-top:15px;
+  display:flex;
+  justify-content:center;
+}
+
+.testimonial-carousel .owl-dot{
+  width:15px;height:15px;margin:0 5px;
+  background:#ddd;border-radius:2px;
+  transition:width .4s,background .4s;
+}
+.testimonial-carousel .owl-dot.active{
+  width:30px;
+  background:#275EFE;
+}
+
+/* spotlight for the centred slide */
+.testimonial-carousel .owl-item.center .testimonial-item{
+  background:#fff!important;
+  box-shadow:0 0 30px #ddd;
+}
+
+.testimonial-item{
+  transition:box-shadow .4s,background .4s;
+  border-radius:6px;
+  display:flex;              /* 🔑 equal-height trick */
+  flex-direction:column;     /* keep avatar on top, quote below */
+  height:100%;               /* stretch inside its owl cell */
+}
+
+/* avatar */
+.testimonial-avatar{
+  width:120px;height:120px;
+  object-fit:cover;
+  border-radius:10px;
+  box-shadow:0 2px 6px rgba(0,0,0,.15);
+}
+
+/* let long quotes push but keep min height same everywhere */
+.quote{
+  flex:1;                    /* fills remaining space */
+  display:flex;
+  align-items:center;        /* vertical-centre text */
+  text-align:left;
+  min-height:120px;          /* tweak if text is larger */
+
 }
 /* Testimonial carousel section end here */
 
 /* all header image section start here */
 .aiheaderimage {
+
   position: relative;
   width: 100%;
   height: 200px; /* Ensure enough height */
@@ -785,6 +836,46 @@ nav.navbar {
 }
 /* event section end here */
 
+
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ensure enough height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+    z-index: 0; /* Keep image behind the text */
+}
+
+.title {
+    position: relative;
+    font-size: 3rem;
+    color: white;
+    z-index: 1; /* Ensure the text stays on top of the image */
+}
+
+.aiheaderimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay for better text visibility */
+    z-index: 1;
+}
+/* all header image section end here */
+
+
 /* footer section start here */
 .footer-logo {
   width: 220px;
@@ -799,57 +890,39 @@ nav.navbar {
 /* footer section end here */
 
 @media (max-width: 991.98px) {
-  /* navbar section start here */
-  .navbar-nav.ms-auto {
-    margin-top: 1rem;
-  }
-  .navbar-nav .nav-link {
-    margin-left: 0;
-    padding: 0.5rem 1rem;
-  }
-  .dropdown-menu[style] {
-    width: 100% !important;
-  }
-  /* navbar section end here */
+    /* navbar section start here */
+    .navbar-nav.ms-auto {
+        margin-top: 1rem;
+    }
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        padding: 0.5rem 1rem;
+    }
+    .dropdown-menu[style] {
+        width: 100% !important;
+    }
+    /* navbar section end here */
 }
 
 @media (max-width: 768px) {
-  /* main-carousel section start here */
-  .carousel-inner img {
-    height: 25vh; /* Smaller height for smaller screens */
-  }
-  /* main-carousel section end here */
-
-  /* underline effect start here */
-  .section-title::before {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .section-title::after {
-    left: 50%;
-    transform: translateX(-75px);
-    animation: section-title-run-center 5s infinite linear;
-  }
-
-  .section-title.section-title-sm::after {
-    transform: translateX(-45px);
-    animation: section-title-run-center-sm 5s infinite linear;
-  }
-
-  @keyframes section-title-run-center-sm {
-    0% {
-      left: 50%;
-      transform: translateX(-45px);
+    /* main-carousel section start here */
+    .carousel-inner img {
+        height: 25vh; /* Smaller height for smaller screens */
     }
-    50% {
-      left: 50%;
-      transform: translateX(40px);
+    /* main-carousel section end here */
+
+    /* underline effect start here */
+    .section-title::before {
+        left: 50%;
+        transform: translateX(-50%);
     }
-    100% {
-      left: 50%;
-      transform: translateX(-45px);
+
+    .section-title::after {
+        left: 50%;
+        transform: translateX(-75px);
+        animation: section-title-run-center 5s infinite linear;
     }
+
   }
   /* underline effect end here */
 
@@ -886,4 +959,53 @@ nav.navbar {
     width: 100%;
   }
   /* Our Value section end here */
+
+
+    .section-title.section-title-sm::after {
+        transform: translateX(-45px);
+        animation: section-title-run-center-sm 5s infinite linear;
+    }
+    
+    @keyframes section-title-run-center-sm {
+        0% { left: 50%; transform: translateX(-45px); }
+        50% { left: 50%; transform: translateX(40px); }
+        100% { left: 50%; transform: translateX(-45px); }
+    }
+    /* underline effect end here */
+
+    /* Our Value section start here */
+    .our-value-item {
+        width: 45%;
+    }
+    /* Our Value section end here */
 }
+
+
+@media (max-width: 576px) {
+    /* top bar section start here */
+    .top-bar-content {
+        font-size: 0.85rem;
+    }
+    /* top bar section end here */
+
+    /* vendor section start here */
+    .vimg { 
+        height: 80px;
+    }
+    /* vendor section end here */
+    
+    /* Testimonial carousel section start here */
+    .quote{
+        min-height:140px;
+    }
+    /* Testimonial carousel section end here */    
+
+}
+
+@media (max-width: 480px) {
+        /* Our Value section start here */
+        .our-value-item {
+            width: 100%;
+        }
+        /* Our Value section end here */
+    }

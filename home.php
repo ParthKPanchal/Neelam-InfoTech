@@ -33,6 +33,10 @@
                 include "components/navbar.php";
             ?>
         </div>
+
+
+        
+
         <?php 
             include 'components/main-carousel.php'; 
         ?>
